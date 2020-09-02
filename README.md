@@ -1,4 +1,4 @@
-# VSCode Chakra UI Docs
+# Chakra UI Docs - VSCode Extension
 
 Easily access the Chakra UI documentation from within VSCode. Inspired by [vscode-tailwind-docs](https://github.com/austenc/vscode-tailwind-docs)
 
