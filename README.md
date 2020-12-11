@@ -13,7 +13,7 @@ To use this extension, simply use ⌘ + Shift + P to open the command palette (C
 
 The files for this extension are generated from the python script dist/build.py. Run this command to rebuild all extension files:
 ```
-  python3 build.py
+  python3 dist/build.py
 ```
 
 ## Release Notes
