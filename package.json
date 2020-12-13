@@ -2,7 +2,7 @@
     "name": "chakra-ui-doc",
     "displayName": "Chakra UI Docs",
     "description": "Easily access the Chakra UI documentation from within Code",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "icon": "images/icon.png",
     "publisher": "timitejumola",
     "repository": "https://github.com/timi-codes/vscode-chakra-ui-docs",
@@ -13,89 +13,136 @@
         "Other"
     ],
     "activationEvents": [
+        "onCommand:extension.chakraUIDocsComparison",
         "onCommand:extension.chakraUIDocsAccordion",
-        "onCommand:extension.chakraUIDocsAlert",
-        "onCommand:extension.chakraUIDocsAlertdialog",
-        "onCommand:extension.chakraUIDocsAspectratiobox",
+        "onCommand:extension.chakraUIDocsBreadcrumb",
+        "onCommand:extension.chakraUIDocsCloseButton",
+        "onCommand:extension.chakraUIDocsIcon",
+        "onCommand:extension.chakraUIDocsLink",
+        "onCommand:extension.chakraUIDocsTabs",
+        "onCommand:extension.chakraUIDocsTransitions",
+        "onCommand:extension.chakraUIDocsVisuallyHidden",
+        "onCommand:extension.chakraUIDocsContributing",
         "onCommand:extension.chakraUIDocsAvatar",
         "onCommand:extension.chakraUIDocsBadge",
-        "onCommand:extension.chakraUIDocsBox",
-        "onCommand:extension.chakraUIDocsBreadcrumb",
+        "onCommand:extension.chakraUIDocsCode",
+        "onCommand:extension.chakraUIDocsDivider",
+        "onCommand:extension.chakraUIDocsImage",
+        "onCommand:extension.chakraUIDocsKbd",
+        "onCommand:extension.chakraUIDocsList",
+        "onCommand:extension.chakraUIDocsStat",
+        "onCommand:extension.chakraUIDocsTable",
+        "onCommand:extension.chakraUIDocsTag",
+        "onCommand:extension.chakraUIDocsChakraFactory",
+        "onCommand:extension.chakraUIDocsColorMode",
+        "onCommand:extension.chakraUIDocsGlobalStyles",
+        "onCommand:extension.chakraUIDocsResponsiveStyles",
+        "onCommand:extension.chakraUIDocsStyleProps",
+        "onCommand:extension.chakraUIDocsTextAndLayerStyles",
+        "onCommand:extension.chakraUIDocsAlert",
+        "onCommand:extension.chakraUIDocsCircularProgress",
+        "onCommand:extension.chakraUIDocsProgress",
+        "onCommand:extension.chakraUIDocsSkeleton",
+        "onCommand:extension.chakraUIDocsSpinner",
+        "onCommand:extension.chakraUIDocsToast",
         "onCommand:extension.chakraUIDocsButton",
         "onCommand:extension.chakraUIDocsCheckbox",
-        "onCommand:extension.chakraUIDocsCircularprogress",
-        "onCommand:extension.chakraUIDocsClosebutton",
-        "onCommand:extension.chakraUIDocsCode",
-        "onCommand:extension.chakraUIDocsCollapse",
-        "onCommand:extension.chakraUIDocsColorMode",
-        "onCommand:extension.chakraUIDocsContributing",
-        "onCommand:extension.chakraUIDocsControlbox",
-        "onCommand:extension.chakraUIDocsDivider",
-        "onCommand:extension.chakraUIDocsDrawer",
         "onCommand:extension.chakraUIDocsEditable",
-        "onCommand:extension.chakraUIDocsFlex",
-        "onCommand:extension.chakraUIDocsFormcontrol",
-        "onCommand:extension.chakraUIDocsGettingStarted",
-        "onCommand:extension.chakraUIDocsGrid",
-        "onCommand:extension.chakraUIDocsHeading",
-        "onCommand:extension.chakraUIDocsIcon",
-        "onCommand:extension.chakraUIDocsIconbutton",
-        "onCommand:extension.chakraUIDocsImage",
+        "onCommand:extension.chakraUIDocsFormControl",
+        "onCommand:extension.chakraUIDocsIconButton",
         "onCommand:extension.chakraUIDocsInput",
-        "onCommand:extension.chakraUIDocsLink",
-        "onCommand:extension.chakraUIDocsList",
+        "onCommand:extension.chakraUIDocsNumberInput",
+        "onCommand:extension.chakraUIDocsPinInput",
+        "onCommand:extension.chakraUIDocsRadio",
+        "onCommand:extension.chakraUIDocsSelect",
+        "onCommand:extension.chakraUIDocsSlider",
+        "onCommand:extension.chakraUIDocsSwitch",
+        "onCommand:extension.chakraUIDocsTextarea",
+        "onCommand:extension.chakraUIDocsGettingStarted",
+        "onCommand:extension.chakraUIDocsUseBreakpointValue",
+        "onCommand:extension.chakraUIDocsUseClipboard",
+        "onCommand:extension.chakraUIDocsUseControllable",
+        "onCommand:extension.chakraUIDocsUseDisclosure",
+        "onCommand:extension.chakraUIDocsUseMediaQuery",
+        "onCommand:extension.chakraUIDocsUsePrefersReducedMotion",
+        "onCommand:extension.chakraUIDocsUseTheme",
+        "onCommand:extension.chakraUIDocsUseToken",
+        "onCommand:extension.chakraUIDocsAspectRatio",
+        "onCommand:extension.chakraUIDocsBox",
+        "onCommand:extension.chakraUIDocsCenter",
+        "onCommand:extension.chakraUIDocsContainer",
+        "onCommand:extension.chakraUIDocsFlex",
+        "onCommand:extension.chakraUIDocsGrid",
+        "onCommand:extension.chakraUIDocsSimpleGrid",
+        "onCommand:extension.chakraUIDocsStack",
+        "onCommand:extension.chakraUIDocsWrap",
+        "onCommand:extension.chakraUIDocsMigration",
+        "onCommand:extension.chakraUIDocsAlertDialog",
+        "onCommand:extension.chakraUIDocsDrawer",
         "onCommand:extension.chakraUIDocsMenu",
         "onCommand:extension.chakraUIDocsModal",
-        "onCommand:extension.chakraUIDocsNumberinput",
         "onCommand:extension.chakraUIDocsPopover",
-        "onCommand:extension.chakraUIDocsPrinciples",
-        "onCommand:extension.chakraUIDocsProgress",
-        "onCommand:extension.chakraUIDocsPseudobox",
-        "onCommand:extension.chakraUIDocsRadio",
-        "onCommand:extension.chakraUIDocsRecipes",
-        "onCommand:extension.chakraUIDocsResponsiveStyles",
-        "onCommand:extension.chakraUIDocsSelect",
-        "onCommand:extension.chakraUIDocsSimplegrid",
-        "onCommand:extension.chakraUIDocsSkeleton",
-        "onCommand:extension.chakraUIDocsSlider",
-        "onCommand:extension.chakraUIDocsSpinner",
-        "onCommand:extension.chakraUIDocsStack",
-        "onCommand:extension.chakraUIDocsStat",
-        "onCommand:extension.chakraUIDocsStyleProps",
-        "onCommand:extension.chakraUIDocsSwitch",
-        "onCommand:extension.chakraUIDocsTabs",
-        "onCommand:extension.chakraUIDocsTag",
-        "onCommand:extension.chakraUIDocsText",
-        "onCommand:extension.chakraUIDocsTextarea",
-        "onCommand:extension.chakraUIDocsTheme",
-        "onCommand:extension.chakraUIDocsToast",
         "onCommand:extension.chakraUIDocsTooltip",
-        "onCommand:extension.chakraUIDocsUseclipboard",
-        "onCommand:extension.chakraUIDocsUsedisclosure",
-        "onCommand:extension.chakraUIDocsUsetheme"
+        "onCommand:extension.chakraUIDocsPrinciples",
+        "onCommand:extension.chakraUIDocsAdvanced",
+        "onCommand:extension.chakraUIDocsComponentStyle",
+        "onCommand:extension.chakraUIDocsCustomizeTheme",
+        "onCommand:extension.chakraUIDocsTheme",
+        "onCommand:extension.chakraUIDocsHeading",
+        "onCommand:extension.chakraUIDocsText"
     ],
     "main": "./out/extension.js",
     "contributes": {
         "commands": [
+            {
+                "command": "extension.chakraUIDocsComparison",
+                "category": "Chakra UI Docs",
+                "title": "Comparison"
+            },
             {
                 "command": "extension.chakraUIDocsAccordion",
                 "category": "Chakra UI Docs",
                 "title": "Accordion"
             },
             {
-                "command": "extension.chakraUIDocsAlert",
+                "command": "extension.chakraUIDocsBreadcrumb",
                 "category": "Chakra UI Docs",
-                "title": "Alert"
+                "title": "Breadcrumb"
             },
             {
-                "command": "extension.chakraUIDocsAlertdialog",
+                "command": "extension.chakraUIDocsCloseButton",
                 "category": "Chakra UI Docs",
-                "title": "Alertdialog"
+                "title": "Close Button"
             },
             {
-                "command": "extension.chakraUIDocsAspectratiobox",
+                "command": "extension.chakraUIDocsIcon",
                 "category": "Chakra UI Docs",
-                "title": "Aspectratiobox"
+                "title": "Icon"
+            },
+            {
+                "command": "extension.chakraUIDocsLink",
+                "category": "Chakra UI Docs",
+                "title": "Link"
+            },
+            {
+                "command": "extension.chakraUIDocsTabs",
+                "category": "Chakra UI Docs",
+                "title": "Tabs"
+            },
+            {
+                "command": "extension.chakraUIDocsTransitions",
+                "category": "Chakra UI Docs",
+                "title": "Transitions"
+            },
+            {
+                "command": "extension.chakraUIDocsVisuallyHidden",
+                "category": "Chakra UI Docs",
+                "title": "Visually Hidden"
+            },
+            {
+                "command": "extension.chakraUIDocsContributing",
+                "category": "Chakra UI Docs",
+                "title": "Contributing"
             },
             {
                 "command": "extension.chakraUIDocsAvatar",
@@ -108,14 +155,104 @@
                 "title": "Badge"
             },
             {
-                "command": "extension.chakraUIDocsBox",
+                "command": "extension.chakraUIDocsCode",
                 "category": "Chakra UI Docs",
-                "title": "Box"
+                "title": "Code"
             },
             {
-                "command": "extension.chakraUIDocsBreadcrumb",
+                "command": "extension.chakraUIDocsDivider",
                 "category": "Chakra UI Docs",
-                "title": "Breadcrumb"
+                "title": "Divider"
+            },
+            {
+                "command": "extension.chakraUIDocsImage",
+                "category": "Chakra UI Docs",
+                "title": "Image"
+            },
+            {
+                "command": "extension.chakraUIDocsKbd",
+                "category": "Chakra UI Docs",
+                "title": "Kbd"
+            },
+            {
+                "command": "extension.chakraUIDocsList",
+                "category": "Chakra UI Docs",
+                "title": "List"
+            },
+            {
+                "command": "extension.chakraUIDocsStat",
+                "category": "Chakra UI Docs",
+                "title": "Stat"
+            },
+            {
+                "command": "extension.chakraUIDocsTable",
+                "category": "Chakra UI Docs",
+                "title": "Table"
+            },
+            {
+                "command": "extension.chakraUIDocsTag",
+                "category": "Chakra UI Docs",
+                "title": "Tag"
+            },
+            {
+                "command": "extension.chakraUIDocsChakraFactory",
+                "category": "Chakra UI Docs",
+                "title": "Chakra Factory"
+            },
+            {
+                "command": "extension.chakraUIDocsColorMode",
+                "category": "Chakra UI Docs",
+                "title": "Color Mode"
+            },
+            {
+                "command": "extension.chakraUIDocsGlobalStyles",
+                "category": "Chakra UI Docs",
+                "title": "Global Styles"
+            },
+            {
+                "command": "extension.chakraUIDocsResponsiveStyles",
+                "category": "Chakra UI Docs",
+                "title": "Responsive Styles"
+            },
+            {
+                "command": "extension.chakraUIDocsStyleProps",
+                "category": "Chakra UI Docs",
+                "title": "Style Props"
+            },
+            {
+                "command": "extension.chakraUIDocsTextAndLayerStyles",
+                "category": "Chakra UI Docs",
+                "title": "Text And Layer Styles"
+            },
+            {
+                "command": "extension.chakraUIDocsAlert",
+                "category": "Chakra UI Docs",
+                "title": "Alert"
+            },
+            {
+                "command": "extension.chakraUIDocsCircularProgress",
+                "category": "Chakra UI Docs",
+                "title": "Circular Progress"
+            },
+            {
+                "command": "extension.chakraUIDocsProgress",
+                "category": "Chakra UI Docs",
+                "title": "Progress"
+            },
+            {
+                "command": "extension.chakraUIDocsSkeleton",
+                "category": "Chakra UI Docs",
+                "title": "Skeleton"
+            },
+            {
+                "command": "extension.chakraUIDocsSpinner",
+                "category": "Chakra UI Docs",
+                "title": "Spinner"
+            },
+            {
+                "command": "extension.chakraUIDocsToast",
+                "category": "Chakra UI Docs",
+                "title": "Toast"
             },
             {
                 "command": "extension.chakraUIDocsButton",
@@ -128,94 +265,19 @@
                 "title": "Checkbox"
             },
             {
-                "command": "extension.chakraUIDocsCircularprogress",
-                "category": "Chakra UI Docs",
-                "title": "Circularprogress"
-            },
-            {
-                "command": "extension.chakraUIDocsClosebutton",
-                "category": "Chakra UI Docs",
-                "title": "Closebutton"
-            },
-            {
-                "command": "extension.chakraUIDocsCode",
-                "category": "Chakra UI Docs",
-                "title": "Code"
-            },
-            {
-                "command": "extension.chakraUIDocsCollapse",
-                "category": "Chakra UI Docs",
-                "title": "Collapse"
-            },
-            {
-                "command": "extension.chakraUIDocsColorMode",
-                "category": "Chakra UI Docs",
-                "title": "Color Mode"
-            },
-            {
-                "command": "extension.chakraUIDocsContributing",
-                "category": "Chakra UI Docs",
-                "title": "Contributing"
-            },
-            {
-                "command": "extension.chakraUIDocsControlbox",
-                "category": "Chakra UI Docs",
-                "title": "Controlbox"
-            },
-            {
-                "command": "extension.chakraUIDocsDivider",
-                "category": "Chakra UI Docs",
-                "title": "Divider"
-            },
-            {
-                "command": "extension.chakraUIDocsDrawer",
-                "category": "Chakra UI Docs",
-                "title": "Drawer"
-            },
-            {
                 "command": "extension.chakraUIDocsEditable",
                 "category": "Chakra UI Docs",
                 "title": "Editable"
             },
             {
-                "command": "extension.chakraUIDocsFlex",
+                "command": "extension.chakraUIDocsFormControl",
                 "category": "Chakra UI Docs",
-                "title": "Flex"
+                "title": "Form Control"
             },
             {
-                "command": "extension.chakraUIDocsFormcontrol",
+                "command": "extension.chakraUIDocsIconButton",
                 "category": "Chakra UI Docs",
-                "title": "Formcontrol"
-            },
-            {
-                "command": "extension.chakraUIDocsGettingStarted",
-                "category": "Chakra UI Docs",
-                "title": "Getting Started"
-            },
-            {
-                "command": "extension.chakraUIDocsGrid",
-                "category": "Chakra UI Docs",
-                "title": "Grid"
-            },
-            {
-                "command": "extension.chakraUIDocsHeading",
-                "category": "Chakra UI Docs",
-                "title": "Heading"
-            },
-            {
-                "command": "extension.chakraUIDocsIcon",
-                "category": "Chakra UI Docs",
-                "title": "Icon"
-            },
-            {
-                "command": "extension.chakraUIDocsIconbutton",
-                "category": "Chakra UI Docs",
-                "title": "Iconbutton"
-            },
-            {
-                "command": "extension.chakraUIDocsImage",
-                "category": "Chakra UI Docs",
-                "title": "Image"
+                "title": "Icon Button"
             },
             {
                 "command": "extension.chakraUIDocsInput",
@@ -223,14 +285,144 @@
                 "title": "Input"
             },
             {
-                "command": "extension.chakraUIDocsLink",
+                "command": "extension.chakraUIDocsNumberInput",
                 "category": "Chakra UI Docs",
-                "title": "Link"
+                "title": "Number Input"
             },
             {
-                "command": "extension.chakraUIDocsList",
+                "command": "extension.chakraUIDocsPinInput",
                 "category": "Chakra UI Docs",
-                "title": "List"
+                "title": "Pin Input"
+            },
+            {
+                "command": "extension.chakraUIDocsRadio",
+                "category": "Chakra UI Docs",
+                "title": "Radio"
+            },
+            {
+                "command": "extension.chakraUIDocsSelect",
+                "category": "Chakra UI Docs",
+                "title": "Select"
+            },
+            {
+                "command": "extension.chakraUIDocsSlider",
+                "category": "Chakra UI Docs",
+                "title": "Slider"
+            },
+            {
+                "command": "extension.chakraUIDocsSwitch",
+                "category": "Chakra UI Docs",
+                "title": "Switch"
+            },
+            {
+                "command": "extension.chakraUIDocsTextarea",
+                "category": "Chakra UI Docs",
+                "title": "Textarea"
+            },
+            {
+                "command": "extension.chakraUIDocsGettingStarted",
+                "category": "Chakra UI Docs",
+                "title": "Getting Started"
+            },
+            {
+                "command": "extension.chakraUIDocsUseBreakpointValue",
+                "category": "Chakra UI Docs",
+                "title": "Use Breakpoint Value"
+            },
+            {
+                "command": "extension.chakraUIDocsUseClipboard",
+                "category": "Chakra UI Docs",
+                "title": "Use Clipboard"
+            },
+            {
+                "command": "extension.chakraUIDocsUseControllable",
+                "category": "Chakra UI Docs",
+                "title": "Use Controllable"
+            },
+            {
+                "command": "extension.chakraUIDocsUseDisclosure",
+                "category": "Chakra UI Docs",
+                "title": "Use Disclosure"
+            },
+            {
+                "command": "extension.chakraUIDocsUseMediaQuery",
+                "category": "Chakra UI Docs",
+                "title": "Use Media Query"
+            },
+            {
+                "command": "extension.chakraUIDocsUsePrefersReducedMotion",
+                "category": "Chakra UI Docs",
+                "title": "Use Prefers Reduced Motion"
+            },
+            {
+                "command": "extension.chakraUIDocsUseTheme",
+                "category": "Chakra UI Docs",
+                "title": "Use Theme"
+            },
+            {
+                "command": "extension.chakraUIDocsUseToken",
+                "category": "Chakra UI Docs",
+                "title": "Use Token"
+            },
+            {
+                "command": "extension.chakraUIDocsAspectRatio",
+                "category": "Chakra UI Docs",
+                "title": "Aspect Ratio"
+            },
+            {
+                "command": "extension.chakraUIDocsBox",
+                "category": "Chakra UI Docs",
+                "title": "Box"
+            },
+            {
+                "command": "extension.chakraUIDocsCenter",
+                "category": "Chakra UI Docs",
+                "title": "Center"
+            },
+            {
+                "command": "extension.chakraUIDocsContainer",
+                "category": "Chakra UI Docs",
+                "title": "Container"
+            },
+            {
+                "command": "extension.chakraUIDocsFlex",
+                "category": "Chakra UI Docs",
+                "title": "Flex"
+            },
+            {
+                "command": "extension.chakraUIDocsGrid",
+                "category": "Chakra UI Docs",
+                "title": "Grid"
+            },
+            {
+                "command": "extension.chakraUIDocsSimpleGrid",
+                "category": "Chakra UI Docs",
+                "title": "Simple Grid"
+            },
+            {
+                "command": "extension.chakraUIDocsStack",
+                "category": "Chakra UI Docs",
+                "title": "Stack"
+            },
+            {
+                "command": "extension.chakraUIDocsWrap",
+                "category": "Chakra UI Docs",
+                "title": "Wrap"
+            },
+            {
+                "command": "extension.chakraUIDocsMigration",
+                "category": "Chakra UI Docs",
+                "title": "Migration"
+            },
+            {
+                "command": "extension.chakraUIDocsAlertDialog",
+                "category": "Chakra UI Docs",
+                "title": "Alert Dialog"
+            },
+            {
+                "command": "extension.chakraUIDocsDrawer",
+                "category": "Chakra UI Docs",
+                "title": "Drawer"
             },
             {
                 "command": "extension.chakraUIDocsMenu",
@@ -243,119 +435,9 @@
                 "title": "Modal"
             },
             {
-                "command": "extension.chakraUIDocsNumberinput",
-                "category": "Chakra UI Docs",
-                "title": "Numberinput"
-            },
-            {
                 "command": "extension.chakraUIDocsPopover",
                 "category": "Chakra UI Docs",
                 "title": "Popover"
-            },
-            {
-                "command": "extension.chakraUIDocsPrinciples",
-                "category": "Chakra UI Docs",
-                "title": "Principles"
-            },
-            {
-                "command": "extension.chakraUIDocsProgress",
-                "category": "Chakra UI Docs",
-                "title": "Progress"
-            },
-            {
-                "command": "extension.chakraUIDocsPseudobox",
-                "category": "Chakra UI Docs",
-                "title": "Pseudobox"
-            },
-            {
-                "command": "extension.chakraUIDocsRadio",
-                "category": "Chakra UI Docs",
-                "title": "Radio"
-            },
-            {
-                "command": "extension.chakraUIDocsRecipes",
-                "category": "Chakra UI Docs",
-                "title": "Recipes"
-            },
-            {
-                "command": "extension.chakraUIDocsResponsiveStyles",
-                "category": "Chakra UI Docs",
-                "title": "Responsive Styles"
-            },
-            {
-                "command": "extension.chakraUIDocsSelect",
-                "category": "Chakra UI Docs",
-                "title": "Select"
-            },
-            {
-                "command": "extension.chakraUIDocsSimplegrid",
-                "category": "Chakra UI Docs",
-                "title": "Simplegrid"
-            },
-            {
-                "command": "extension.chakraUIDocsSkeleton",
-                "category": "Chakra UI Docs",
-                "title": "Skeleton"
-            },
-            {
-                "command": "extension.chakraUIDocsSlider",
-                "category": "Chakra UI Docs",
-                "title": "Slider"
-            },
-            {
-                "command": "extension.chakraUIDocsSpinner",
-                "category": "Chakra UI Docs",
-                "title": "Spinner"
-            },
-            {
-                "command": "extension.chakraUIDocsStack",
-                "category": "Chakra UI Docs",
-                "title": "Stack"
-            },
-            {
-                "command": "extension.chakraUIDocsStat",
-                "category": "Chakra UI Docs",
-                "title": "Stat"
-            },
-            {
-                "command": "extension.chakraUIDocsStyleProps",
-                "category": "Chakra UI Docs",
-                "title": "Style Props"
-            },
-            {
-                "command": "extension.chakraUIDocsSwitch",
-                "category": "Chakra UI Docs",
-                "title": "Switch"
-            },
-            {
-                "command": "extension.chakraUIDocsTabs",
-                "category": "Chakra UI Docs",
-                "title": "Tabs"
-            },
-            {
-                "command": "extension.chakraUIDocsTag",
-                "category": "Chakra UI Docs",
-                "title": "Tag"
-            },
-            {
-                "command": "extension.chakraUIDocsText",
-                "category": "Chakra UI Docs",
-                "title": "Text"
-            },
-            {
-                "command": "extension.chakraUIDocsTextarea",
-                "category": "Chakra UI Docs",
-                "title": "Textarea"
-            },
-            {
-                "command": "extension.chakraUIDocsTheme",
-                "category": "Chakra UI Docs",
-                "title": "Theme"
-            },
-            {
-                "command": "extension.chakraUIDocsToast",
-                "category": "Chakra UI Docs",
-                "title": "Toast"
             },
             {
                 "command": "extension.chakraUIDocsTooltip",
@@ -363,19 +445,39 @@
                 "title": "Tooltip"
             },
             {
-                "command": "extension.chakraUIDocsUseclipboard",
+                "command": "extension.chakraUIDocsPrinciples",
                 "category": "Chakra UI Docs",
-                "title": "Useclipboard"
+                "title": "Principles"
             },
             {
-                "command": "extension.chakraUIDocsUsedisclosure",
+                "command": "extension.chakraUIDocsAdvanced",
                 "category": "Chakra UI Docs",
-                "title": "Usedisclosure"
+                "title": "Advanced"
             },
             {
-                "command": "extension.chakraUIDocsUsetheme",
+                "command": "extension.chakraUIDocsComponentStyle",
                 "category": "Chakra UI Docs",
-                "title": "Usetheme"
+                "title": "Component Style"
+            },
+            {
+                "command": "extension.chakraUIDocsCustomizeTheme",
+                "category": "Chakra UI Docs",
+                "title": "Customize Theme"
+            },
+            {
+                "command": "extension.chakraUIDocsTheme",
+                "category": "Chakra UI Docs",
+                "title": "Theme"
+            },
+            {
+                "command": "extension.chakraUIDocsHeading",
+                "category": "Chakra UI Docs",
+                "title": "Heading"
+            },
+            {
+                "command": "extension.chakraUIDocsText",
+                "category": "Chakra UI Docs",
+                "title": "Text"
             }
         ]
     },

@@ -7,7 +7,7 @@ from shutil import copyfile
 
 # Create a request with a valid User-Agent
 req = urllib.request.Request(
-  'https://chakra-ui.com/getting-started/',
+  'https://chakra-ui.com/docs/getting-started',
   data=None,
   headers={
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) ' +
@@ -19,17 +19,17 @@ req = urllib.request.Request(
 
 # Pull the html from the main docs page, find all links and remove _next links
 docs = urllib.request.urlopen(req)
-links = re.findall('href="(/[^/_"].*?)"', docs.read().decode('utf-8'))
+# print(docs.read().decode('utf-8'))
+links = re.findall('href="(/docs/.*?)"', docs.read().decode('utf-8'))
 
 found = []
 pages = []
 
-# Compile all the info for the pages
+# # Compile all the info for the pages
 for url in sorted(set(links)):
-  topic = url.split('/')[1].title().replace('-', ' ');
-  slug = url.split('/')[1]
-
-  print(slug)
+  topic = url.split('/')[-1].title().replace('-', ' ')
+  slug = url.replace('/', '', 1)
+  
   if (topic not in found):
     found.append(topic)
     pages.append({
