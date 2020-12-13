@@ -18,7 +18,7 @@ The files for this extension are generated from the python script dist/build.py.
 
 ## Release Notes
 
-### 0.1.0
+### 1.0.0
 
 Initial Release -- Chakra UI first release supported
 
