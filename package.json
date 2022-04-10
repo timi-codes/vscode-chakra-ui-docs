@@ -13,32 +13,17 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.chakraUIDocsComparison",
-        "onCommand:extension.chakraUIDocsAccordion",
-        "onCommand:extension.chakraUIDocsBreadcrumb",
-        "onCommand:extension.chakraUIDocsCloseButton",
-        "onCommand:extension.chakraUIDocsIcon",
-        "onCommand:extension.chakraUIDocsLink",
-        "onCommand:extension.chakraUIDocsTabs",
-        "onCommand:extension.chakraUIDocsTransitions",
-        "onCommand:extension.chakraUIDocsVisuallyHidden",
-        "onCommand:extension.chakraUIDocsContributing",
-        "onCommand:extension.chakraUIDocsAvatar",
         "onCommand:extension.chakraUIDocsBadge",
         "onCommand:extension.chakraUIDocsCode",
         "onCommand:extension.chakraUIDocsDivider",
-        "onCommand:extension.chakraUIDocsImage",
         "onCommand:extension.chakraUIDocsKbd",
         "onCommand:extension.chakraUIDocsList",
         "onCommand:extension.chakraUIDocsStat",
         "onCommand:extension.chakraUIDocsTable",
         "onCommand:extension.chakraUIDocsTag",
-        "onCommand:extension.chakraUIDocsChakraFactory",
-        "onCommand:extension.chakraUIDocsColorMode",
-        "onCommand:extension.chakraUIDocsGlobalStyles",
-        "onCommand:extension.chakraUIDocsResponsiveStyles",
-        "onCommand:extension.chakraUIDocsStyleProps",
-        "onCommand:extension.chakraUIDocsTextAndLayerStyles",
+        "onCommand:extension.chakraUIDocsAccordion",
+        "onCommand:extension.chakraUIDocsTabs",
+        "onCommand:extension.chakraUIDocsVisuallyHidden",
         "onCommand:extension.chakraUIDocsAlert",
         "onCommand:extension.chakraUIDocsCircularProgress",
         "onCommand:extension.chakraUIDocsProgress",
@@ -54,19 +39,11 @@
         "onCommand:extension.chakraUIDocsNumberInput",
         "onCommand:extension.chakraUIDocsPinInput",
         "onCommand:extension.chakraUIDocsRadio",
+        "onCommand:extension.chakraUIDocsRangeSlider",
         "onCommand:extension.chakraUIDocsSelect",
         "onCommand:extension.chakraUIDocsSlider",
         "onCommand:extension.chakraUIDocsSwitch",
         "onCommand:extension.chakraUIDocsTextarea",
-        "onCommand:extension.chakraUIDocsGettingStarted",
-        "onCommand:extension.chakraUIDocsUseBreakpointValue",
-        "onCommand:extension.chakraUIDocsUseClipboard",
-        "onCommand:extension.chakraUIDocsUseControllable",
-        "onCommand:extension.chakraUIDocsUseDisclosure",
-        "onCommand:extension.chakraUIDocsUseMediaQuery",
-        "onCommand:extension.chakraUIDocsUsePrefersReducedMotion",
-        "onCommand:extension.chakraUIDocsUseTheme",
-        "onCommand:extension.chakraUIDocsUseToken",
         "onCommand:extension.chakraUIDocsAspectRatio",
         "onCommand:extension.chakraUIDocsBox",
         "onCommand:extension.chakraUIDocsCenter",
@@ -76,79 +53,33 @@
         "onCommand:extension.chakraUIDocsSimpleGrid",
         "onCommand:extension.chakraUIDocsStack",
         "onCommand:extension.chakraUIDocsWrap",
-        "onCommand:extension.chakraUIDocsMigration",
+        "onCommand:extension.chakraUIDocsAvatar",
+        "onCommand:extension.chakraUIDocsIcon",
+        "onCommand:extension.chakraUIDocsImage",
+        "onCommand:extension.chakraUIDocsBreadcrumb",
+        "onCommand:extension.chakraUIDocsLink",
+        "onCommand:extension.chakraUIDocsLinkOverlay",
+        "onCommand:extension.chakraUIDocsCloseButton",
+        "onCommand:extension.chakraUIDocsPortal",
+        "onCommand:extension.chakraUIDocsShowHide",
+        "onCommand:extension.chakraUIDocsTransitions",
         "onCommand:extension.chakraUIDocsAlertDialog",
         "onCommand:extension.chakraUIDocsDrawer",
         "onCommand:extension.chakraUIDocsMenu",
         "onCommand:extension.chakraUIDocsModal",
         "onCommand:extension.chakraUIDocsPopover",
         "onCommand:extension.chakraUIDocsTooltip",
-        "onCommand:extension.chakraUIDocsPrinciples",
-        "onCommand:extension.chakraUIDocsAdvanced",
-        "onCommand:extension.chakraUIDocsComponentStyle",
-        "onCommand:extension.chakraUIDocsCustomizeTheme",
-        "onCommand:extension.chakraUIDocsTheme",
+        "onCommand:extension.chakraUIDocsOverview",
+        "onCommand:extension.chakraUIDocsAsProp",
+        "onCommand:extension.chakraUIDocsFloatingLabels",
+        "onCommand:extension.chakraUIDocsHorizontalCollapse",
+        "onCommand:extension.chakraUIDocsZIndex",
         "onCommand:extension.chakraUIDocsHeading",
         "onCommand:extension.chakraUIDocsText"
     ],
     "main": "./out/extension.js",
     "contributes": {
         "commands": [
-            {
-                "command": "extension.chakraUIDocsComparison",
-                "category": "Chakra UI Docs",
-                "title": "Comparison"
-            },
-            {
-                "command": "extension.chakraUIDocsAccordion",
-                "category": "Chakra UI Docs",
-                "title": "Accordion"
-            },
-            {
-                "command": "extension.chakraUIDocsBreadcrumb",
-                "category": "Chakra UI Docs",
-                "title": "Breadcrumb"
-            },
-            {
-                "command": "extension.chakraUIDocsCloseButton",
-                "category": "Chakra UI Docs",
-                "title": "Close Button"
-            },
-            {
-                "command": "extension.chakraUIDocsIcon",
-                "category": "Chakra UI Docs",
-                "title": "Icon"
-            },
-            {
-                "command": "extension.chakraUIDocsLink",
-                "category": "Chakra UI Docs",
-                "title": "Link"
-            },
-            {
-                "command": "extension.chakraUIDocsTabs",
-                "category": "Chakra UI Docs",
-                "title": "Tabs"
-            },
-            {
-                "command": "extension.chakraUIDocsTransitions",
-                "category": "Chakra UI Docs",
-                "title": "Transitions"
-            },
-            {
-                "command": "extension.chakraUIDocsVisuallyHidden",
-                "category": "Chakra UI Docs",
-                "title": "Visually Hidden"
-            },
-            {
-                "command": "extension.chakraUIDocsContributing",
-                "category": "Chakra UI Docs",
-                "title": "Contributing"
-            },
-            {
-                "command": "extension.chakraUIDocsAvatar",
-                "category": "Chakra UI Docs",
-                "title": "Avatar"
-            },
             {
                 "command": "extension.chakraUIDocsBadge",
                 "category": "Chakra UI Docs",
@@ -163,11 +94,6 @@
                 "command": "extension.chakraUIDocsDivider",
                 "category": "Chakra UI Docs",
                 "title": "Divider"
-            },
-            {
-                "command": "extension.chakraUIDocsImage",
-                "category": "Chakra UI Docs",
-                "title": "Image"
             },
             {
                 "command": "extension.chakraUIDocsKbd",
@@ -195,34 +121,19 @@
                 "title": "Tag"
             },
             {
-                "command": "extension.chakraUIDocsChakraFactory",
+                "command": "extension.chakraUIDocsAccordion",
                 "category": "Chakra UI Docs",
-                "title": "Chakra Factory"
+                "title": "Accordion"
             },
             {
-                "command": "extension.chakraUIDocsColorMode",
+                "command": "extension.chakraUIDocsTabs",
                 "category": "Chakra UI Docs",
-                "title": "Color Mode"
+                "title": "Tabs"
             },
             {
-                "command": "extension.chakraUIDocsGlobalStyles",
+                "command": "extension.chakraUIDocsVisuallyHidden",
                 "category": "Chakra UI Docs",
-                "title": "Global Styles"
-            },
-            {
-                "command": "extension.chakraUIDocsResponsiveStyles",
-                "category": "Chakra UI Docs",
-                "title": "Responsive Styles"
-            },
-            {
-                "command": "extension.chakraUIDocsStyleProps",
-                "category": "Chakra UI Docs",
-                "title": "Style Props"
-            },
-            {
-                "command": "extension.chakraUIDocsTextAndLayerStyles",
-                "category": "Chakra UI Docs",
-                "title": "Text And Layer Styles"
+                "title": "Visually Hidden"
             },
             {
                 "command": "extension.chakraUIDocsAlert",
@@ -300,6 +211,11 @@
                 "title": "Radio"
             },
             {
+                "command": "extension.chakraUIDocsRangeSlider",
+                "category": "Chakra UI Docs",
+                "title": "Range Slider"
+            },
+            {
                 "command": "extension.chakraUIDocsSelect",
                 "category": "Chakra UI Docs",
                 "title": "Select"
@@ -318,51 +234,6 @@
                 "command": "extension.chakraUIDocsTextarea",
                 "category": "Chakra UI Docs",
                 "title": "Textarea"
-            },
-            {
-                "command": "extension.chakraUIDocsGettingStarted",
-                "category": "Chakra UI Docs",
-                "title": "Getting Started"
-            },
-            {
-                "command": "extension.chakraUIDocsUseBreakpointValue",
-                "category": "Chakra UI Docs",
-                "title": "Use Breakpoint Value"
-            },
-            {
-                "command": "extension.chakraUIDocsUseClipboard",
-                "category": "Chakra UI Docs",
-                "title": "Use Clipboard"
-            },
-            {
-                "command": "extension.chakraUIDocsUseControllable",
-                "category": "Chakra UI Docs",
-                "title": "Use Controllable"
-            },
-            {
-                "command": "extension.chakraUIDocsUseDisclosure",
-                "category": "Chakra UI Docs",
-                "title": "Use Disclosure"
-            },
-            {
-                "command": "extension.chakraUIDocsUseMediaQuery",
-                "category": "Chakra UI Docs",
-                "title": "Use Media Query"
-            },
-            {
-                "command": "extension.chakraUIDocsUsePrefersReducedMotion",
-                "category": "Chakra UI Docs",
-                "title": "Use Prefers Reduced Motion"
-            },
-            {
-                "command": "extension.chakraUIDocsUseTheme",
-                "category": "Chakra UI Docs",
-                "title": "Use Theme"
-            },
-            {
-                "command": "extension.chakraUIDocsUseToken",
-                "category": "Chakra UI Docs",
-                "title": "Use Token"
             },
             {
                 "command": "extension.chakraUIDocsAspectRatio",
@@ -410,9 +281,54 @@
                 "title": "Wrap"
             },
             {
-                "command": "extension.chakraUIDocsMigration",
+                "command": "extension.chakraUIDocsAvatar",
                 "category": "Chakra UI Docs",
-                "title": "Migration"
+                "title": "Avatar"
+            },
+            {
+                "command": "extension.chakraUIDocsIcon",
+                "category": "Chakra UI Docs",
+                "title": "Icon"
+            },
+            {
+                "command": "extension.chakraUIDocsImage",
+                "category": "Chakra UI Docs",
+                "title": "Image"
+            },
+            {
+                "command": "extension.chakraUIDocsBreadcrumb",
+                "category": "Chakra UI Docs",
+                "title": "Breadcrumb"
+            },
+            {
+                "command": "extension.chakraUIDocsLink",
+                "category": "Chakra UI Docs",
+                "title": "Link"
+            },
+            {
+                "command": "extension.chakraUIDocsLinkOverlay",
+                "category": "Chakra UI Docs",
+                "title": "Link Overlay"
+            },
+            {
+                "command": "extension.chakraUIDocsCloseButton",
+                "category": "Chakra UI Docs",
+                "title": "Close Button"
+            },
+            {
+                "command": "extension.chakraUIDocsPortal",
+                "category": "Chakra UI Docs",
+                "title": "Portal"
+            },
+            {
+                "command": "extension.chakraUIDocsShowHide",
+                "category": "Chakra UI Docs",
+                "title": "Show Hide"
+            },
+            {
+                "command": "extension.chakraUIDocsTransitions",
+                "category": "Chakra UI Docs",
+                "title": "Transitions"
             },
             {
                 "command": "extension.chakraUIDocsAlertDialog",
@@ -445,29 +361,29 @@
                 "title": "Tooltip"
             },
             {
-                "command": "extension.chakraUIDocsPrinciples",
+                "command": "extension.chakraUIDocsOverview",
                 "category": "Chakra UI Docs",
-                "title": "Principles"
+                "title": "Overview"
             },
             {
-                "command": "extension.chakraUIDocsAdvanced",
+                "command": "extension.chakraUIDocsAsProp",
                 "category": "Chakra UI Docs",
-                "title": "Advanced"
+                "title": "As Prop"
             },
             {
-                "command": "extension.chakraUIDocsComponentStyle",
+                "command": "extension.chakraUIDocsFloatingLabels",
                 "category": "Chakra UI Docs",
-                "title": "Component Style"
+                "title": "Floating Labels"
             },
             {
-                "command": "extension.chakraUIDocsCustomizeTheme",
+                "command": "extension.chakraUIDocsHorizontalCollapse",
                 "category": "Chakra UI Docs",
-                "title": "Customize Theme"
+                "title": "Horizontal Collapse"
             },
             {
-                "command": "extension.chakraUIDocsTheme",
+                "command": "extension.chakraUIDocsZIndex",
                 "category": "Chakra UI Docs",
-                "title": "Theme"
+                "title": "Z Index"
             },
             {
                 "command": "extension.chakraUIDocsHeading",
