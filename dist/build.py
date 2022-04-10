@@ -7,7 +7,7 @@ from shutil import copyfile
 
 # Create a request with a valid User-Agent
 req = urllib.request.Request(
-  'https://chakra-ui.com/docs/getting-started',
+  'https://chakra-ui.com/docs/components/overview',
   data=None,
   headers={
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) ' +
@@ -29,7 +29,9 @@ pages = []
 for url in sorted(set(links)):
   topic = url.split('/')[-1].title().replace('-', ' ')
   slug = url.replace('/', '', 1)
-  
+  topic = topic.replace('?scroll=true', '')
+  topic = topic.replace('?Scroll=True', '')
+
   if (topic not in found):
     found.append(topic)
     pages.append({
